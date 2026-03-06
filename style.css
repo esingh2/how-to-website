@@ -1,8 +1,9 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr 6fr 4.2% 7fr 4fr;
-        gap: 10px;
+    grid-template-rows: 7% 3.6% 28% 4.4% 39% 17%;
+    gap: 10px;
+    padding-bottom: 20px;  
 }
 
 .header {
@@ -13,8 +14,8 @@
     justify-content: center;
     align-items: flex-start;
     gap: 25px;
-    border-radius: 15px;
     background-color: bisque;
+    border-radius: 20px;
 }
 .header h1 {
     font-size: 105px;
@@ -43,33 +44,88 @@
     grid-row: 2/3;
     background-color: bisque;
     border: 2px solid black;
+    border-radius: 20px;
 }
 .in-image {
     grid-column: 1/3;
     grid-row: 3/4;
-    background-color: coral;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.big {
+    max-height: 750px;
+    width: 100%;
+    padding: 16px;
 }
 .intro {
     grid-column: 1/3;
     grid-row: 4/5;
-    background-color: blueviolet;
+    background-color: bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    margin-top: -10px;
+}
+.intro h1 {
+    font-size: 80px;
+    text-align: center;
+    transform: scaleX(1.4)
 }
 .ing {
     grid-column: 1/2;
     grid-row: 5/6;
-    background-color: aqua;
+    background-color: #ffe4c4;
+    border-radius: 20px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+h3 {
+    font-size: 70px;
+    margin: 40px;
+    margin-left: 200px;
+}
+.ing li {
+    font-size: 35px;
+    margin: 50px;
 }
 .steps {
     grid-column: 2/3;
     grid-row: 5/6;
-    background-color: rgb(181, 255, 255);
+    background-color: bisque;
+    border-radius: 20px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.steps li {
+    font-size: 35px;
+    margin-bottom: 130px;
+    margin-left: 50px;
+    margin-top: 90px;
 }
 .quick {
     grid-column: 1/3;
     grid-row: 6/7;
-    background-color: chocolate;
+    background-color: bisque;
+    border-radius: 20px;
+        margin-bottom: 10px;
 }
-
+.notes {
+    text-align: center;
+    font-size: 83px;
+    margin-right: 140px;
+}
+.quick li {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
 body {
     font-family: system-ui, sans-serif;
     background: whitesmoke;
