@@ -59,6 +59,7 @@
     max-height: 750px;
     width: 100%;
     padding: 16px;
+    border-radius: 50px;
 }
 .intro {
     grid-column: 1/3;
